@@ -1,0 +1,15 @@
+Applied Programming Coursework – Maze Navigator Game
+
+This project implements a small maze navigation game in Python. The maze is represented as a 2D grid using a list of lists of characters, where walls are marked with #, walkable cells with ., the start with S, and the goal with G. The player position is stored separately as coordinates.
+
+The project includes both a text-mode version and a graphical user interface built with tkinter. The text-mode version was useful for testing the game logic independently. The GUI reuses the same game state and pathfinding logic, which avoids code duplication and keeps the program structure consistent.
+
+For pathfinding, Breadth-First Search (BFS) was implemented. BFS was chosen because movement on the grid has equal cost in all directions, so BFS guarantees the shortest path in terms of number of steps. The algorithm avoids walls, respects grid boundaries, and correctly handles the case where no path exists.
+
+The code was divided into separate modules. The pathfinding and movement logic are in pathfinding.py, the text-based version is in main.py, and the graphical interface is in gui.py. This modular structure improves readability, reuse, and maintainability. Basic tests were also included to verify pathfinding and player movement.
+
+GitHub repository link:
+[put your public GitHub link here]
+
+freeCodeCamp Python certification:
+[put your certificate link here]

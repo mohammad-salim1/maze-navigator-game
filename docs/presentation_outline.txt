@@ -1,0 +1,14 @@
+Slide 1: Project Overview
+- Maze Navigator Game
+- Grid-based Python game
+- Start, goal, walls, and player movement
+
+Slide 2: How It Works
+- Text mode for testing
+- GUI with tkinter
+- BFS shortest path algorithm
+
+Slide 3: Design Choices
+- Modular structure
+- Reused logic between text mode and GUI
+- Simple tests included
